@@ -1,0 +1,102 @@
+
+li#foto1{
+    background: url('../_imagens/galeria-01.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+
+li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+li#foto2{
+    background: url('../_imagens/galeria-02.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+li#foto3{
+    background: url('../_imagens/galeria-03.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+li#foto4{
+    background: url('../_imagens/galeria-04.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+li#foto4:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+li#foto5{
+    background: url('../_imagens/galeria-05.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+li#foto5:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+li#foto6{
+    background: url('../_imagens/galeria-06.jpg')  no-repeat;
+    background-position: 50% 50% ;
+    background-size: 400px 400px;
+    background-color: #ffff;
+}
+li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul.album-fotos{
+    
+    width: 700px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul.album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    -webkit-transition: all 0.2s ease-in;
+}
+ul.album-fotos span{
+    opacity: 0;
+    color: #ffff;
+    background-color: rgba(0,0,0,.4);
+    font-size: 12pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul.album-fotos li:hover span{
+    opacity: 1;
+}
+ul.album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+}

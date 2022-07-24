@@ -1,0 +1,269 @@
+@charset "utf8";
+
+@font-face {
+    font-family: 'fonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+
+/*----------- FORMATAÇÃO DO CORPO DA PAGINA  -------------*/
+body{background-color: #dddd;}
+div#interface{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+div#multimidiaPag{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+section#corpo-dividido{
+    display: block;
+    float: left;
+    width: 520px;
+    padding: 20px;
+    border-right: 1px solid #606060;
+}
+section#corpo-inteiro{
+    padding: 15px;
+    margin: 5px;
+}
+section#corpo-inteiro small#lado{
+    position: absolute;
+    width: 46%;
+    text-align: right;
+}
+
+aside#lateral {
+    padding: 10px;
+    margin: 15px;
+    background-color: #dddd;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px #606060;
+}
+
+aside#lateral {
+    width: 325px;
+    display: block;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+aside#lateral h1{
+    font-family: fonteLogo ;
+}
+aside#lateral h1.fundoEscuro{
+    background-color: #606060;
+    color: white;
+}
+footer#rodape{
+    clear: both;
+    border-top: solid 1px #606060 ;
+}
+
+footer#rodape h4{
+    font-size: 13pt;
+    font-style: italic;
+    text-align: center;
+}
+
+footer#rodape ul{
+    list-style: none;
+    text-align: center;
+}
+footer#rodape li{
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+}
+footer#rodape a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*formatação texto*/
+h1.fundoEscuro{
+    text-align: left;
+    background-color: #dddd;
+    padding-left: 10px;
+    padding: 5px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 13pt;
+}
+
+/*----- FORMATAÇÃO DO HEADER ------*/
+header#cabeca{
+    height: 170px;
+    padding: 5px;
+    border-bottom: solid 1px #606060;
+    background-image: url("../_imagens/glass-logo-peq.jpg" );
+    background-repeat: no-repeat;
+    background-position:  15px 100px ;
+}
+header#cabeca h1{
+    font-family: fonteLogo ;
+    margin-left: 15px;
+}
+
+header#cabeca h2{
+    color: #dddd;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin: -30px  0px;
+    padding: 15px;
+}
+
+img#logo{
+    position: absolute;
+    left: 65%;
+    top: 110px;
+    transition:  opacity 800ms;
+}
+
+/*----- FORMATAÇÃO DO MENU PRINCIPAL DA PAGINA ------*/
+nav#menu h1{display: none;}
+
+nav#menu ul{
+    display: block;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 41%;
+}
+
+nav#menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #dddd;
+    text-decoration: none;
+    padding: 5px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{background-color: #606060;}
+
+nav#menu a{
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+}
+
+/*----- FORMATAÇÃO DO AGRUPAMENTO DE TITULOS DA PAGINA ------*/
+hgroup.grupo-titulos{
+    position: relative;
+    height: 100px;
+    margin-left: -15px;
+
+}
+hgroup.grupo-titulos h3.cima{
+    position: absolute;
+    color: #dddd;
+    margin-bottom: 20px;
+    top: -25px;
+}
+
+hgroup.grupo-titulos h3.baixo{
+    position: absolute;
+    top: 20px;
+    color: #dddd;
+    padding-top: 20px;
+}
+
+hgroup.grupo-titulos h2{
+    position: absolute;
+    top: 10px;
+}
+section#corpo-dividido small#lado{ 
+    position: absolute;
+    font-size: 8pt;
+    width: 28%;
+    text-align: right;
+    
+}
+   
+/*----- FORMATAÇÃO DA FOTO PRINCIPAL DA PAGINA ------*/
+figure.foto-legenda{
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px #606060 ;
+}
+
+figure.foto-legenda figcaption{
+    position: absolute;
+    padding: 0px;
+    top: 0px;
+    background-color: rgba(221, 221, 221, 0.507);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 15pt;
+    opacity: 0; 
+    transition: opacity 1s;
+}
+figure.foto-legenda figcaption:hover{
+    opacity: 1;
+
+}
+
+/*---------------- FORMATAÇÃO DA TABELA  ----------------*/
+div.tabela{
+    padding-top: 12px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+div.tabela h2{
+    color: rgba(129, 129, 129, 0.651);
+    position: absolute;
+    font-size: 14pt;
+    top: -25px;
+    left: 120px ;
+}
+div.tabela small{
+    position: absolute;
+    font-size: 8pt;
+    left: 400px;
+    top: 0px;
+}
+table#tabela{
+    background-color: #606060;
+    margin: auto;
+}
+td.direita{
+    background-color: #dddd;
+    text-align: left;
+    padding: 5px    ;
+}
+td.esquerda{
+    vertical-align: top; 
+    text-align: inherit;
+    background-color: #606060;
+    color: white;
+    text-align: right;
+    padding: 5px;
+}
+

@@ -1,0 +1,56 @@
+
+
+form#formulario{
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+form#formulario fieldset{
+    margin: 10px;
+}
+form#formulario fieldset#usuario{
+    background: url('../_imagens/icone-contato.png') no-repeat;
+    background-position: bottom right;
+    padding: 5px;
+}
+form#formulario fieldset#sexo{
+    display: block;
+    width: 150px;
+    padding: 5px;
+    height: 60px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+form#formulario fieldset#endereco{
+    background: url('../_imagens/icone-endereco.png') no-repeat;
+    background-position: bottom right;
+    
+}
+form#formulario fieldset#mensagem{
+    background: url('../_imagens/icone-mensagem.png') no-repeat;
+    background-position: bottom right;
+}
+form#formulario fieldset#mensagem textarea{
+    opacity: .8;
+}
+form#formulario fieldset#adiquirir{
+    background: url('../_imagens/icone-pagamento.png') no-repeat;
+    background-position: bottom right;
+}
+input#btnEnviar{
+    opacity: 1;
+    background: url('../_imagens/botao-enviar.png') no-repeat;
+    background-position:center;
+    width: 100px;
+    height: 30px;
+    padding: 0px;
+    border: none;
+    transition: opacity 200ms;
+    border-radius: 5px;
+}
+
+input#btnEnviar:hover{
+    opacity: .8;
+}
+

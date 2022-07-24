@@ -1,0 +1,37 @@
+div#tv-radio{
+    background: url('../_imagens/radio-tv.png') no-repeat ;
+    height: 580px;
+    width: 900px;
+    margin: 40px auto ;
+}
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 70px;
+    top: -85px;
+    width: 450px;
+    height: 450px;
+}
+audio#musica{
+    display: block;
+    position: relative;
+    left: 573px;
+    top: 500px;
+    height: 30px;
+}
+
+video#lado-esquerdo{
+    display: block;
+    position: relative;
+    height: 250px;
+    width: 450px;
+    margin: auto;
+}
+video#lado-direito{
+    display: block;
+    position: relative;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+}

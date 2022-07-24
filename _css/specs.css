@@ -1,0 +1,25 @@
+
+body{
+    font-family: arial;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+section#informacoes{
+    padding: 10px;
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}
+
+iframe#frame-spec{
+    padding: 5px;
+    display: block;
+    width: 350px;
+    height: 300px;
+    float: right;
+    border: none;
+    overflow-y: hidden;
+}

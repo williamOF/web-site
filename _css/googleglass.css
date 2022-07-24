@@ -1,0 +1,28 @@
+@charset "utf8";
+@font-face {
+    font-family: 'fonteLogo';
+    src: url('../_fonts/bubblegum-sans-regular.otf');
+}
+
+body{
+    background-color: #dddd;
+}
+
+div#pagina{
+    width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+
+}
+
+p{
+    text-align: center;
+    text-indent: 25px;
+    font-size: 14pt;
+}
+
+section#corpo{
+    padding: 10px;
+}
+
